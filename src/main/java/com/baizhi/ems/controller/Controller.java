@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("test")
-public class Controller {
+public class Controller { //测试用的
    @GetMapping("test")
     public String test(){
         System.out.println("test method invoke");
